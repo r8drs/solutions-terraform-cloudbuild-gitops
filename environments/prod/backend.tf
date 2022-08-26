@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "dmo-test-terraform-tfstate"
     prefix = "env/prod"
   }
 }
